@@ -1,0 +1,7 @@
+git init
+git config user.name "sj2532nb"
+git config user.email "sj2532nb@gmail.com"
+git remote add origin https://github.com/sj2532nb/vite_project.git
+git add .
+git commit -m "first commit"
+git push origin master
