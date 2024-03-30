@@ -134,8 +134,10 @@ Events.on(engine, "collisionStart", (event)=>{
                 // console.log(`num_sun2 = ` + num_sun);  // 1
                 // console.log(`index2 = ` + index);  // 8
                 if(num_sun > 0){
-                    alert("CLEAR!");
-                    location.reload();
+                    setTimeout(function(){
+                        alert("CLEAR!");
+                        location.reload();
+                    }, 3000);
                 }
                 else{
                     return;
